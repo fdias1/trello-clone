@@ -1,0 +1,23 @@
+.btn-add-coluna {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 40px;
+    background-color: #0002;
+    border-radius:3px;
+    transition:300ms;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.btn-add-coluna:hover {
+    transition:300ms;
+    background-color: #0003;
+}
+.btn-add-coluna:active {
+    transition:300ms;
+    background-color: #0004;
+}
+.icone-mais {
+    margin-right: 10px;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+    user-select: none;
+}
+html, body, #root, .app {
+    width: 100vw;
+    height: 100vh;
+}
+.app {
+    background-image:url("/img/bg.jpg");
+    background-size: cover;
+    display:grid;
+    grid-template-rows: 48px 1fr 50px;
+}
+.oculto {
+    display:none !important;
+}

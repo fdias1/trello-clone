@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 48px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0006;
+}
+.esquerda,.direita,.centro {
+    height: 100%;
+    width: 33vw;
+    display:flex;
+    align-items: center;
+    padding:6px 10px;
+}
+.centro > img, .direita > img {
+    height: 100%;
+    cursor: pointer;
+}
+.esquerda{
+    justify-content: flex-start;
+}
+.centro {
+    justify-content: center;
+    padding:11px 20px;
+}
+.direita{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.logo {
+    filter:opacity(.6);
+    transition:300ms;
+}
+.logo:hover {
+    filter:opacity(0.8);
+    transition:300ms;
+}
+.direita > img {
+    border-radius: 100%;
+}

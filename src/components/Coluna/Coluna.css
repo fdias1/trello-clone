@@ -1,0 +1,11 @@
+
+.coluna {
+    min-width: 300px;
+    width: 300px;
+    height: 100%;
+    padding-left: 10px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 99%;
+}

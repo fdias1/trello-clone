@@ -1,0 +1,29 @@
+.card {
+    white-space: pre-wrap;
+    width: 100%;
+    padding:8px;
+    margin-top:10px;
+    border-radius: 3px;
+    background-color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.5);
+}
+.card:hover {
+    background-color:#e5e5e5;
+}
+.icone {
+    color:#fff;
+    cursor:pointer;
+    margin-left: 5px;
+}
+.card:hover>.icone {
+    color:#777;
+}
+.card.drag {
+    position:absolute;
+    width: 272px;
+}

@@ -1,0 +1,31 @@
+.oculto {
+    display:none !important;
+}
+#titulo-documento-edit {
+    background-color: #fff3;
+    outline: none;
+    padding: 0 10px;
+    height: 40px;
+    float: none;
+    width: 310px;
+    border:0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1.5rem;  
+    border-radius:3px
+}
+#titulo-documento-view {
+    background-color: transparent;
+    outline: none;
+    padding: 0 10px;
+    height: 40px;
+    width: 100%;
+    border:0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

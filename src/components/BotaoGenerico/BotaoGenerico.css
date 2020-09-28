@@ -1,0 +1,16 @@
+.botao-generico {
+    background-color: #3fa53f;
+    color:#fff;
+    padding:0 10px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition:300ms;
+    cursor: pointer;
+}
+.botao-generico:hover {
+    background-color: #338533;
+    transition:300ms;
+}

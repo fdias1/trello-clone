@@ -1,0 +1,35 @@
+.nova-lista {
+    background-color:#ebecf0;
+    border-radius: 3px;
+    width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.input-nova-lista {
+    background-color: #fff;
+    padding:5px;
+    float: none;
+    width: 100%;
+    border:0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2rem;  
+    border-radius:3px;
+    -moz-outline-radius:5px;
+}
+.nova-lista-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:30px;
+}
+.nova-lista-fechar  {
+    margin-left:10px;
+    cursor:pointer;
+}

@@ -1,0 +1,23 @@
+.btn-add-cartao {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius:3px;
+    transition:300ms;
+    padding: 0 15px;
+    cursor: pointer;
+    color:#666;
+}
+.btn-add-cartao:hover {
+    transition:300ms;
+    background-color: #0002;
+}
+.btn-add-cartao:active {
+    transition:300ms;
+    background-color: #0003;
+}
+.icone-mais {
+    margin-right: 10px;
+}
